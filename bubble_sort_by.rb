@@ -11,7 +11,7 @@ def bubble_sort_by(array)
         break if sorted
         n -= 1
     end
-    puts array
+    array
  end
 
 print bubble_sort_by(["hi","hello","hey"]) { |left,right| left.length - right.length }
